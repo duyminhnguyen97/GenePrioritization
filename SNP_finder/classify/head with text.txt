@@ -1,0 +1,31 @@
+gene_name
+biochemical_character \ Biochemical character
+vegetative_organ_SAM \ Vegetative organ - Shoot apical meristem(SAM)
+vegetative_organ_leaf \ Vegetative organ - Leaf
+vegetative_organ_culm \ Vegetative organ - Culm
+vegetative_organ_root \ Vegetative organ - Root
+reproductive_organ_heading_date \ Reproductive organ - Heading date
+reproductive_organ_inflorescence \ Reproductive organ - Inflorescence
+reproductive_organ_panicle \ Reproductive organ - panicle
+reproductive_organ_panicle_mode_branching \ Reproductive organ - Panicle, Mode of branching
+reproductive_organ_spikelet_flower_glume_awn \ Reproductive organ - Spikelet, flower, glume, awn
+reproductive_organ_pollination_fertilization_fertility \ Reproductive organ - Pollination, fertilization, fertility
+heterochrony \ Heterochrony
+coloration_anthocyanin \ Coloration - Anthocyanin
+coloration_chlorophyll \ Coloration - Chlorophyll
+coloration_others \ Coloration - Others
+seed_morphological_traits \ Seed - Morphological traits
+seed_physiological_traits \ Seed - Physiological traits
+tolerance_resistance_lesion_mimic \ Tolerance and resistance - Lesion mimic
+tolerance_resistance_disease_resistance \ Tolerance and resistance - Disease resistance
+tolerance_resistance_insect_resistance \ Tolerance and resistance - Insect resistance
+tolerance_resistance_stress_tolerance \ Tolerance and resistance - Stress tolerance
+QTL_grain_quality \ Character as QTL - Grain quality
+QTL_yield_productivity \ Character as QTL - Yield and productivity
+QTL_plant_growth_activity \ Character as QTL - Plant growth activity
+QTL_germination \ Character as QTL - Germination
+QTL_root_activity \ Character as QTL - Root activity
+QTL_seed_sterility \ Character as QTL - Seed sterility
+chr
+chr_start
+chr_end

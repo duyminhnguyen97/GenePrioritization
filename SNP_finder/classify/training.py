@@ -223,6 +223,54 @@ headers1 = ['biochemical_character', 'vegetative_organ_SAM', 'vegetative_organ_l
 training = training.dropna(axis = 'index', subset = headers1, how = 'all')
 training = training.fillna(0)
 training[headers1] = training[headers1].astype(int)
+
+#	sort training
+training = training.sort_values(by = ['chr', 'chr_start'])
 training = training.reset_index(drop = True)
+
+
 print(training)
 export_csv = training.to_csv('training.csv', index = None, header = True)
+
+
+
+#-------------------------------------------------------------------------
+#	split dataframe
+training1 = training[training['chr'] == 1]
+training2 = training[training['chr'] == 2]
+training3 = training[training['chr'] == 3]
+training4 = training[training['chr'] == 4]
+training5 = training[training['chr'] == 5]
+training6 = training[training['chr'] == 6]
+training7 = training[training['chr'] == 7]
+training8 = training[training['chr'] == 8]
+training9 = training[training['chr'] == 9]
+training10 = training[training['chr'] == 10]
+training11 = training[training['chr'] == 11]
+training12 = training[training['chr'] == 12]
+
+print(len(training1.chr))
+print(len(training2.chr))
+print(len(training3.chr))
+print(len(training4.chr))
+print(len(training5.chr))
+print(len(training6.chr))
+print(len(training7.chr))
+print(len(training8.chr))
+print(len(training9.chr))
+print(len(training10.chr))
+print(len(training11.chr))
+print(len(training12.chr))
+
+export_csv = training1.to_csv('training1.csv', index = None, header = True)
+export_csv = training2.to_csv('training2.csv', index = None, header = True)
+export_csv = training3.to_csv('training3.csv', index = None, header = True)
+export_csv = training4.to_csv('training4.csv', index = None, header = True)
+export_csv = training5.to_csv('training5.csv', index = None, header = True)
+export_csv = training6.to_csv('training6.csv', index = None, header = True)
+export_csv = training7.to_csv('training7.csv', index = None, header = True)
+export_csv = training8.to_csv('training8.csv', index = None, header = True)
+export_csv = training9.to_csv('training9.csv', index = None, header = True)
+export_csv = training10.to_csv('training10.csv', index = None, header = True)
+export_csv = training11.to_csv('training11.csv', index = None, header = True)
+export_csv = training12.to_csv('training12.csv', index = None, header = True)

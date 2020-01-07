@@ -1,0 +1,140 @@
+***GWAS
+ 					Sub-trait	Association
+biochemical trait			64		4873
+plant quality trait			14		18741
+plant growth and development trait	12		9789
+biological process trait		8		1744
+plant morphology trait			135		32009
+yield trait				7		1371
+plant vigor trait			13		3081
+sterility or fertility trait		1		95
+stress trait				30		3377
+
+
+***realdb
+Trait_ontology
+Grain quality                         [Seed length, Seed length/width ratio, Seed wi...
+Manganese toxicity tolerance          [Relative Shoot Length for plants grown under ...
+Peduncle vascular bundle              [The Number Of Large Vascular Bundle, The Numb...
+Phenology                             [Days from flowering to maturity , Days to flo...
+Physiological traits                        [The soil-plant analysis development value]
+Physiology                            [Chlorophyll content, Flavonoid leaf content, ...
+Plant Morphology                      [Flag leaf length, Flag leaf width, Leaf area,...
+Plant morphology                      [Flag leaf length, Flag leaf width, Panicle le...
+Rice eating and cooking quality       [amylose content, gel consistency, gelatinizat...
+Root traits                           [Root length, Root surface area, Root volume, ...
+Salt Tolerance                        [germination rate, ratio of Na+ to K+ concentr...
+Seed Morphology                       [Naked seed length, Naked seed width, Naked se...
+Yield                                 [Hundred grain weight, Hundred naked grain wei...
+abiotic stress trait                  [Drought sensitivity score after 2 weeks of dr...
+agronomic traits                      [Awn length, Dual stigma exsertion, Grain leng...
+agronomical traits                                          [Degree of seed shattering]
+biochemical trait                     [ α‑tocopherol content, 12-hydroxy jasmonoyl-i...
+biological process trait              [5_spike_number, Electrolyte leakage after col...
+biotic stress trait                   [Bacterial Leaf Blight (BLB) resistance(PXO341...
+plant growth and development trait    [Flowering time at Arberdeen, Flowering time a...
+plant morphology trait                [1,000-grain weight, 1000-grain weight, 75th p...
+plant quality trait                   [Degree of endosperm chalkiness, breakdown vis...
+plant vigor trait                     [Seed germination percentage, callus induction...
+quality traits                        [Brown rice rate, Chalkiness degree, Chalky gr...
+root traits                                                           [Root Cone Angle]
+sterility or fertility trait                                       [spikelet sterility]
+yield trait                           [Fresh versus dry biomass ratio after natural ...
+
+
+3
+2
+8
+3
+1
+4
+6
+4
+4
+5
+11
+6
+4
+31
+21
+1
+90
+26
+15
+19
+193
+18
+15
+3
+1
+1
+
+
+
+***Oryzabase
+Biochemical character - biochemical trait
+Vegetative organ \ Peduncle vascular bundle
+Reproductive organ
+Coloration
+Seed \ Grain quality, 
+Tolerance and resistance \ stress trait, Manganese toxicity tolerance
+Character as QTL
+
+
+***GWAS
+biochemical trait \
+plant quality trait \
+plant growth and development trait 
+biological process trait 
+plant morphology trait
+yield trait 
+plant vigor trait
+sterility or fertility trait 
+stress trait \
+
+-------------------------------------------------------------------------
+biochemical trait
+Seed
+Tolerance and resistance: stress
+plant morphology trait: Vegetative organ, Reproductive organ
+
+
+
+
+Grain quality        			Reproductive organ               
+Manganese toxicity tolerance          	Tolerance and resistance
+Peduncle vascular bundle              	Vegetative organ
+Phenology                             	Reproductive organ
+Physiological traits 			Tolerance and resistance
+Physiology                            	Biochemical character
+Plant Morphology                      	Vegetative organ
+Plant morphology                      	Vegetative organ
+Rice eating and cooking quality      	Seed
+Root traits                           	Vegetative organ
+Salt Tolerance                        	Tolerance and resistance
+Seed Morphology                      	Seed
+Yield                                	QTL: Yield and productivity
+abiotic stress trait               	Tolerance and resistance
+agronomic traits                    	Reproductive organ 
+agronomical traits                  	Reproductive organ 
+biochemical trait                   	Biochemical character
+biological process trait          	Reproductive organ
+biotic stress trait                   	Tolerance and resistance
+plant growth and development trait   	Reproductive organ
+plant morphology trait                	Vegetative organ
+plant quality trait                   	QTL: grain quality
+plant vigor trait                     	QTL: Germination
+quality traits                       	QTL: Yield and productivity
+root traits                             Vegetative organ
+sterility or fertility trait            Reproductive organ
+yield trait				QTL: Yield and productivity
+
+-----------------------------------------------------------------------------------
+Biochemical character		B
+Vegetative organ		C
+Reproductive organ		D
+Coloration			E
+Seed				F
+Tolerance and resistance	G
+QTL				H
+

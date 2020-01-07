@@ -1,0 +1,11 @@
+gene_name
+biochemical_character
+vegetative_organ
+reproductive_organ
+coloration
+seed
+tolerance_resistance
+QTL
+chr
+chr_start
+chr_end

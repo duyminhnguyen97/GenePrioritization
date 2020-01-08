@@ -31,9 +31,7 @@ training = training.reset_index(drop = True)
 
 #	biochemical character
 biochemical_character = gene_data[gene_data['Trait Class'].str.contains('Biochemical character', regex = False)]
-#biochemical_character = biochemical_character.append(gene_data[gene_data['Trait Class'].str.contains('Coloration', regex = False)])
 biochemical_character_index = biochemical_character.index
-print(biochemical_character_index)
 for i in range(len(biochemical_character_index)):
 	training.at[biochemical_character_index[i],'biochemical_character'] = 1
 
@@ -98,8 +96,6 @@ for i in range(len(training['chr'])):
 	training['radius'][i] = training['chr_end'][i] - training['midpoint'][i]
 print(training)
 
-
-print(training)
 export_csv = training.to_csv('training.csv', index = None, header = True)
 
 
